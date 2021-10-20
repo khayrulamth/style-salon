@@ -133,7 +133,7 @@ const Login = () => {
                     }
 
                 </div>
-                <div className="social-icons">
+                <div className="social-icons flex pl-24">
                     <img onClick={googleSignIn} src={google} alt="Google" />
                     <img onClick={fbSignIn} src={facebook} alt="Facebook" />
                     <img onClick={gitHubSignIn} src={github} alt="Github" />
