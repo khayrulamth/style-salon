@@ -3,22 +3,25 @@ import ServiceCard from './ServiceCard';
 import women from '../../img/woman.png';
 import man from '../../img/men.png';
 import curly from '../../img/curly.png';
+import alert from '../../img/alert.png';
+import ambulance from '../../img/ambulance.png';
+import call from '../../img/call.png';
 
 const Services = () => {
     const hairCuts = [{
-        title: "Women's Cut",
+        title: "Emergency Service",
         price: "35",
-        img: women,
+        img: alert,
     },
     {
-        title: "Curly Hair Cut",
+        title: "ICU Service",
         price: "75",
-        img: curly,
+        img: call,
     },
     {
-        title: "Men's Cut",
+        title: "24 hrs Ambulence",
         price: "50",
-        img: man,
+        img: ambulance,
     },
 
     ]

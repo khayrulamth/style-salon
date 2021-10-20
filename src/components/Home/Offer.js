@@ -2,15 +2,16 @@ import React from 'react';
 import makeup from '../../img/makeup.svg';
 import gift from '../../img/gift.svg';
 import love from '../../img/love.svg';
+import nurse from '../../img/nurse.svg';
 import OfferCard from './OfferCard';
 
 const Offer = () => {
     
     const dataSet = [{
         bg:'c-main',
-        dataImg: makeup,
-        title: 'NEW CLIENT OFFER',
-        description: 'New to our Salon or interested in trying a new service? You are welcome! '
+        dataImg: nurse,
+        title: 'Services For Smile',
+        description: "We work for our patient's smile. You are welcome to have a normal life! "
     },{
         bg:'white',
         dataImg: gift,

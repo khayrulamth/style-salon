@@ -55,10 +55,10 @@ IconContainer.propTypes = {
 
 export default function CustomizedRatings() {
     return (
-        <div>
+        <div className="py-10 mt-10">
             
             <Box component="fieldset" mb={3} borderColor="transparent">
-                <Typography component="legend">Our Clients Feedback</Typography>
+                <Typography className="text-lg" component="legend">Leave Your Feedback</Typography>
                 <StyledRating
                     name="customized-color"
                     defaultValue={4.5}
